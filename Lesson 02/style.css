@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+    border: 0.5px solid white;
+}
+
+main {
+    font-family: monospace;
+}
+
+body {
+    font-size: 22px;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+p {
+    color: purple;
+}
+
+.purple{
+    background-color: aqua;
+}
+
+.article {
+    color: gray;
+    background-color: yellow;
+}
+
+#first {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#second {
+    font-style: italic;
+}
+
+#third {
+    font-style:oblique;
+}
+
