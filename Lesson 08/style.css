@@ -1,0 +1,32 @@
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    list-style-type: lower-latin;
+    /* padding: 10%; */
+}
+
+ul {
+    list-style-type: square;
+    text-align: start;
+    list-style-position: inside;
+    color: #00f;
+    line-height: 1.6;
+    /* list-style-image: url('Alpha.png',)(); */
+    /* list-style-image: url(); */
+    
+}
+
+ul li:nth-child(even) {
+    color: red;
+}
+
+ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: ">> ";
+}

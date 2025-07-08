@@ -1,0 +1,22 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsla(207, 75%, 32%, 0.474);
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
